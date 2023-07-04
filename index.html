@@ -1,11 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weather Info</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+       <div class="weather-container">
+            <div class="weather-box">
+                <h2 id="temprature"></h2>
+                <p id="condition"></p>
+                <p id="location"></p>
+            </div>
+            <br>
+            <input type="text" placeholder="Enter a Location" id="search-bar">
+            <br>
+            <button id="search-btn">Search</button>
+       </div> 
+       <script src="script.js"></script>
+    </body>
 </html>
